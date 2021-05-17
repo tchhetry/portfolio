@@ -41,6 +41,10 @@ background: linear-gradient(to left, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Fi
   margin: 2px 50px 0 15px;
 }
 
+.link-container{
+  margin-left: auto!important;
+}
+
 .bitmoji{
   display: block;
   margin-left: auto;
