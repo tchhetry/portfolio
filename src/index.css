@@ -56,3 +56,18 @@ background: linear-gradient(to left, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Fi
   text-align: center;
   font-size: 50px;
 }
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.banner{
+  opacity: 0.3;
+}
+
+.socials{
+  display: block;
+  margin: auto;
+  width: 200px;
+}

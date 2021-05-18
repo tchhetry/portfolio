@@ -2,6 +2,7 @@ import React from 'react';
 import NavTop from './NavTop.js';
 import bitmoji from '../images/bitmoji_laptop.png';
 import Typist from 'react-typist';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Homepage(){
 
@@ -13,6 +14,12 @@ export default function Homepage(){
                 <Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 0}}>
                         Hi, I'm Trishant!
                 </Typist>
+                <div className="banner">
+                    <div className="socials">
+                        <a href="https://github.com/tchhetry"><AiFillGithub size="100px" /></a> 
+                        <a href="https://www.linkedin.com/in/trishant-chhetry-48300415b/"><AiFillLinkedin size="100px" /></a>
+                    </div>
+                </div>
             </div>
         </>
     )
