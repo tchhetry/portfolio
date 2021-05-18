@@ -51,3 +51,8 @@ background: linear-gradient(to left, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Fi
   margin-right: auto;
   width: 250px;
 }
+
+.Typist{
+  text-align: center;
+  font-size: 50px;
+}
