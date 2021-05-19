@@ -15,6 +15,8 @@ export default function Homepage(){
                         Hi, I'm Trishant!
                 </Typist>
                 <div className="banner">
+                <p>Aspiring Software Engineer</p>
+                <h2>JavaScript/React | Python | Java</h2>
                     <div className="socials">
                         <a href="https://github.com/tchhetry"><AiFillGithub size="100px" /></a> 
                         <a href="https://www.linkedin.com/in/trishant-chhetry-48300415b/"><AiFillLinkedin size="100px" /></a>

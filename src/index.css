@@ -63,7 +63,22 @@ a{
 }
 
 .banner{
-  opacity: 0.3;
+  background-color: rgba(0, 0, 0, .4);
+  width: 75%;
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 5pc;
+  text-align: center;
+}
+
+.banner p{
+  font-weight: bold;
+  color:white;
+  font-size: 50px;
+}
+
+h2{
+  color:white;
 }
 
 .socials{
