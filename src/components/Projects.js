@@ -7,7 +7,7 @@ export class Projects extends Component {
             <>
                 <NavTop current="Projects"/>
                 <div className="content">
-                    <p>Projects</p>
+                    
                 </div>
             </>
         )

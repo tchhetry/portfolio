@@ -18,8 +18,8 @@ export default function Homepage(){
                 <p>Aspiring Software Engineer</p>
                 <h2>JavaScript/React | Python | Java</h2>
                     <div className="socials">
-                        <a href="https://github.com/tchhetry"><AiFillGithub size="100px" /></a> 
-                        <a href="https://www.linkedin.com/in/trishant-chhetry-48300415b/"><AiFillLinkedin size="100px" /></a>
+                        <a href="https://github.com/tchhetry" target="_blank" rel="noopener noreferrer"><AiFillGithub size="100px" /></a> 
+                        <a href="https://www.linkedin.com/in/trishant-chhetry-48300415b/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin size="100px" /></a>
                     </div>
                 </div>
             </div>

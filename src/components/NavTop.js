@@ -17,14 +17,14 @@ export default function NavTop(props) {
     return (
         <>
             <Navbar className="nav" expand="lg">
-                <Navbar.Brand><h6 className="navBrand">{currentPage}</h6></Navbar.Brand>
+                <Navbar.Brand><h6 className="navBrand">{currentPage === "Homepage" ? "" : currentPage}</h6></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="link-container">
+                    {/* <Nav className="link-container">
                         <Nav.Link onClick={currentPage === "Homepage" ? resume : homepage}><h6 className="navLink">{currentPage === "Homepage" ? "Resume" : "Homepage"}</h6></Nav.Link>
                         <Nav.Link onClick={currentPage === "Projects" ? resume : projects}><h6 className="navLink">{currentPage === "Projects" ? "Resume" : "Projects"}</h6></Nav.Link>
                         <Nav.Link onClick={currentPage === "Contact" ? resume : contact}><h6 className="navLink">{currentPage === "Contact" ? "Resume" : "Contact"}</h6></Nav.Link>
-                    </Nav>
+                    </Nav> */}
                 </Navbar.Collapse>
             </Navbar>
         </>
